@@ -1,0 +1,6 @@
+.chromadb/
+.venv/
+__pycache__/
+*.pyc
+.env
+rag-chatbot/
