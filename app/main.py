@@ -1,3 +1,5 @@
+import os
+import uvicorn
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List, Optional
@@ -33,3 +35,7 @@ def chat_endpoint(request: ChatRequest):
 def reset():
     # Placeholder – no session state used
     return {"status": "conversation reset"}
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 10000))
+    uvicorn.run("app.main:app", host="0.0.0.0", port=port, reload=False)
