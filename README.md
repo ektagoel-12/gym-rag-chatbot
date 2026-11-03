@@ -2,6 +2,10 @@
 
 This project is a FastAPI-based chatbot that uses Retrieval-Augmented Generation (RAG) to answer **gym-related questions**. It retrieves relevant text chunks from a local knowledge base and uses an LLM API (Fireworks) to generate contextual answers.
 
+
+https://github.com/user-attachments/assets/349e5d31-1836-458a-83d4-92fe122c5eb1
+
+
 ---
 
 ## 🚀 Features
